@@ -11,6 +11,8 @@
 - Notice that we use `.innerHTML` to retrieve the content that sits
   between the `<label>` and `</label>` tags.
 
+document.getElementsByTagName("label").foodLabel.innerHTML
+
 ## Part 2
 
 - Use JavaScript to determine what text is entered into the `<input>`
@@ -19,6 +21,8 @@
   between the `<input>` tags. There's not even a closing `</input>`
   tag!
 - Use `.value` to retrieve the entered favorite food instead.
+
+document.getElementsByTagName("input").foodId.value
 
 ## Part 3
 
@@ -30,8 +34,16 @@
 - You google how to use JavaScript to determine if an HTML checkbox is
   checked and you realize everything I've told you is a lie.
 
+document.getElementsByTagName("input").calmId.checked
 
 ## Questions
 
 - When can we use `.innerHTML` and when can we use `.value`?
+
+You can use .innerHTML when there is an opening and closing HTML tag and you can use .value when there is a value attribute inside the HTML tag
+
 - What do you use when determining if a checkbox is checked?
+
+element selector with .checked added to it will return true or false
+
+

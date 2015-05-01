@@ -34,4 +34,13 @@ see how to work with them.
 - What are the differences between `.getElementById`,
   `.getElementsByClassName`, `.getElementsByTagName`, and
   `querySelectorAll`?
+
+  .getElementById("name") is equivalent to .querySelector("#name")
+  .getElementsByClassName("name") is equivalent to .querySelectorAll(".name")
+  .getElementsByTagName("name") is equivalent to .querySelectorAll("name")
+
 - How did you loop over the lists of elements?
+
+for (var i = 0; i < arr.length; i++){
+	
+}

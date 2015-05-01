@@ -55,6 +55,14 @@ mouse moves, when keys are pressed, and when forms are submitted.
 ## Questions
 
 - What does `event.preventDefault()` do?
+
+	it stops the normal default event that is attached to a button/form/etc from happening.
+
 - Why do we listen for the `submit` event on a `<form>` instead of
   listening for the `click` event on the submit button?
+
+	Because it isn't the button that performs a submit event, but rather the form that performs the submit event. 
+
 - What does the `window`'s `load` event allow us to do?
+
+	wait for the entire page to load before executing the included javascript.
